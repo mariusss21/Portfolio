@@ -53,14 +53,11 @@ info.markdown("""
 ## Engenheiro de controle e automação - Ambev :beer:
 #### *de abril de 2021 até setembro de 2022*
 
-Trabalhei na Ambev latas minas (presencial em 2021 e remoto em 2022) no time de tecnologia da fábrica. Era responsável por todo o ciclo de desenvolvimento de soluções, participando de reuniões para entender o problema e definir o escopo do projeto. Então passava para a execução do projeto, entrega, melhorias e manutenção. Também colaborava com os projetos de outros membros da equipe.
-
-Minha missão na equipe de tecnologia era tornar os processos mais confiáveis e facilitar as atividades dos operadores.
+Trabalhei na Ambev latas minas (presencial em 2021 e remoto em 2022) no time de tecnologia da fábrica. Era responsável por todo o ciclo de desenvolvimento de soluções, participando desde reuniões para entender o problema até a entrega do produto.
 
 * Desenvolvimento de aplicações para otimizar os processos com Python e deploy das aplicações na plataforma Streamlit.io ou em containers (Docker).
 * Desenvolvimento de dashboards (Streamlit e Grafana)
 * ETL com Python e Node-Red
-
 """)
 
 skills.markdown("""
@@ -77,27 +74,30 @@ skills.markdown("""
 with st.expander('Principais projetos na Ambev'):
     st.markdown("""
     #### [Dashboard] Logística interna da fábrica:
-    Projeto visava auxiliar a reposição de insumos e retirada de produto finalizado. 
-    * **Resultados alcançados:** Reduziu a zero o tempo de parada por questões logísticas resultando em uma economia estimada superior a R$ 500.000,00/mês. Ficou em segundo lugar no prêmio de melhores práticas da companhia na América Latina
+    O processo de reposição de insumos e produto finalizado pode gerar paradas de máquina que atrapalham a produção diária. Como não havia visibilidade para os operadores e nem pra gestão, o risco era bem alto. A dashboard foi então desenvolvida para solucionar essa falta de visibilidade. 
+    * **Resultados alcançados:** Reduziu a zero o tempo de parada por questões logísticas resultando em uma economia estimada superior a R$ 500.000,00/mês. O projeto ficou em segundo lugar no prêmio de melhores práticas da companhia na América Latina
     * **Ferramentas utilizadas:** Node-Red para coleta de dados dos equipamentos, InfluxDB para armazenamento e dashboard no Grafana.
 
     #### [Aplicação] Central de alarmes da Control Tower: 
-    Todos os alarmes da planta foram concentrados em uma única aplicação para auxiliar o operador a identificar rapidamente quais máquinas estão em falha ou se houve falhas em inspeções de qualidade. 
+    A companhia possui mais de 80 máquinas em 3 linhas de produção, porém não havia nenhum lugar onde eles estivessem concentrados. Então todos os alarmes da planta foram concentrados em uma única aplicação para auxiliar o operador. 
     * **Resultados alcançados:** A centralização dos alarmes possibilitou a rápida identifição de problemas gerando redução no tempo entre o problema e ação. Os gráficos também ajudaram a entender quais falhas são mais recorrentes e impactam na produção.
     * **Ferramentas utilizadas:** Node-Red para coleta de dados dos equipamentos e de arquivos CSV, armazenamento em banco MySQL e a interface desenvolvida em Python (Pandas e Streamlit).
 
     #### [Aplicação] Gerenciamento da calibração:
-    Importa todas e trata todas as planilhas de dados de calibração que vinham do SAP. Permitia ao operador programar as calibrações e justificar os possíveis atrasos po área.
+    A calibração dos equipamentos era gerenciada em planilhas Excel parcialmente automatizadas. Utilizar o Excel gerava muita perda de informações, problemas de versionamento e edições indevidas. 
+    Então foi desenvolvida uma aplicação para importar/tratar as planilhas de dados de calibração que vinham do SAP. Foram adiciondads funcionalidades de planejamento de calibração e justificativa de atrasos (questão complicada para auditorias)
     * **Resultados alcançados:** Propiciou ao gestor a visibilidade da calibração de todos os equipamentos da fábrica. A divisão por áreas facilitou a compreensão de quais áreas poderiam gerar problemas e contorná-los antes de acontecer.
     * **Ferramentas utilizadas:** Desenvolvido com Python, Pandas e Streamlit. Obs.: A integração com o SAP ficou para uma etapa futura
 
     #### [Aplicação] Gerenciamento da chegada de insumos:
-    Aplicação Web que permitia entrar com os dados de todas as bobinas de alumínio que chegavam na planta. Com os dados da bobina salvos, passamos a ter o histórico e o sistema gerava automaticamente as etiquetas. Também era possível utilizar a aplicação para efetuar a leitura dos QR codes das etiquetas e realizar o inventário. 
-    * **Resultados alcançados:** O principal ganhofoi em tempo para o operador tendo em vista que a aplicação agilizou o processo de entrada de insumos, a confecção de etiquetas e contagem das bobinas (anteriormente feita em papel e passada para planilha)
+    A chegada de insumos a planta demandava dos operadores anotar (em papel) as informações da bobina de alumínio, depois colocar as informações no Excel e posteriormente editar um Excel para montar a etiqueta. Também há o processo de contagem de bobinas que é feito manualmente.
+    Foi desenvolvida uma aplicação Web que permitia entrar com os dados de todas as bobinas que chegavam na planta através de um formulário simples. Esses dados são armazenados em banco para ter histórico e são utilizados para automatização das etiquetas. Foi também adicionada uma funcionalidade para leitura de QR code das etiquetas para facilitar a contagem. 
+    * **Resultados alcançados:** O principal ganho foi em tempo para o operador tendo em vista que a aplicação agilizou o processo de entrada de insumos, a confecção de etiquetas e contagem das bobinas (anteriormente feita em papel e passada para planilha)
     * **Ferramentas utilizadas:** Desenvolvido com Python e Streamlit. Deploy na nuvem do Streamlit e banco Firebase (ambas soluções gratuitas)
 
     #### [Aplicação] Inventário fixo:
-    O inventário de ativos fixos é realizado uma vez ao ano e compreende a coleta de dados de todas as máquinas da planta. A aplicação realiza a importação e tratamento de uma base de dados (excel) pré estabelecida e filtrava itens que não precisavam ser inventariados. O iventário em si é um formulário para colocar os dados e fotos dos equipamentos. Foi construída uma pequena dashboard para acompanhar o andamento e uma seção para gerar relatórios.
+    O inventário de ativos fixos é realizado uma vez ao ano e compreende a coleta de dados de todas as máquinas da planta. 
+    A aplicação realiza a importação e tratamento de uma base de dados (Excel) pré disponibilizada pelo corporativo e filtra itens que não precisavam ser inventariados. O iventário em si é um formulário que possibilita colocar os dados e fotos dos equipamentos. Foi construída uma pequena dashboard para acompanhar o andamento e uma seção para gerar relatórios.
     * **Resultados alcançados:** Rápida realização do inventário obrigatório, reduzindo o impacto nas demais atividades do colaborador. Organização do relatório final com todas as informações e fotos.
     * **Ferramentas utilizadas:** Desenvolvido com Python e Streamlit.
 
@@ -108,7 +108,7 @@ with st.expander('Principais projetos na Ambev'):
 
     #### [Aplicação] Visibilidade TCS:
     O TCS é um equipamento que realiza medições de peças dos equipamentos para garantir que estão na medida certa e que realizarão corretamente as transformações da lata. Existe um software que recebe esses dados, porém é de difícil navegação e não fornecia a visibilidade desejada para o dia a dia.
-    Então foi desenvolvida uma aplicação que extraía essa base de dados (.mdb) e conferia visibilidade aos principais indicadores do TCS. Também foram extraídos dados de produção e falhas do InfluxDB para auxiliar o processo de tomada de decisão.
+    Então foi desenvolvida uma aplicação para extrair a base de dados do TCS (um arquivo .mdb) e conferir visibilidade aos principais indicadores do TCS. Também foram extraídos dados de produção e falhas do InfluxDB para auxiliar o processo de tomada de decisão.
     * **Resultados alcançados:** Facilitou a troca de turno pois bastava olhar a aplicação pra saber tudo que tinha sido feito no turno passado. Os gestores tiveram visibilidade das atividades realizadas e tinham dados para comparar com a produção e as falhas
     * **Ferramentas utilizadas:** Desenvolvido com Python, Pandas e Streamlit.
     """)
