@@ -29,7 +29,9 @@ h1{
 div.block-container{
     padding-top: 1rem;
 }
-
+css-1yy6isu e16nr0p34{
+    font-size: 30px;
+}
 div.streamlit-expanderHeader{
     width: 100%;
     font-size: 30px;
