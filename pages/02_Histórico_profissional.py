@@ -32,7 +32,7 @@ div.block-container{
 
 div.streamlit-expanderHeader{
     width: 100%;
-    font-size: 18px;
+    font-size: 24px;
 }
 </style>""", unsafe_allow_html=True)
 
@@ -42,7 +42,7 @@ info, skills = st.columns([7,3])
 
 info.markdown("""
 ## Engenheiro de controle e automação - Ambev
-### de abril de 2021 até setembro de 2022
+#### de abril de 2021 até setembro de 2022
 
 Era responsável por todo o ciclo de desenvolvimento de soluções, participando de reuniões para entender o problema e definir o escopo do projeto. Então passava para a execução do projeto, entrega, melhorias e manutenção. Colaborava com os projetos de outros membros da equipe
 
@@ -53,9 +53,9 @@ Era responsável por todo o ciclo de desenvolvimento de soluções, participando
 """)
 
 skills.markdown("""
-## Skills:
-* Python
-* Bancos de dados 
+### Skills:
+* Python (Pandas, Plotly, Streamlit)
+* Bancos de dados (MySQL, Firebase, InfluxDB)
 * Node-Red (Javascript)
 """)
 
