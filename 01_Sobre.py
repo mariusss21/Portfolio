@@ -38,12 +38,14 @@ div.streamlit-expanderHeader{
 # Página sobre
 st.markdown("# Sobre")
 
-sobre, foto = st.columns([7,3])
+sobre, foto = st.columns([8,2])
 
 sobre.markdown("""
 ## Quem sou eu?
 Olá, sou Mario Carvalho. Sejam bem vindos ao meu portfólio. Nasci em Natal-RN e moro em Recife-PE desde 1997 com passagens por Dublin e Sete Lagoas-MG. Sou apaixonado por resolver problemas, esportes (em especial o futebol) e livros de fantasia.
 """)
+
+foto.image('mario_carvalho.jpg')
 
 st.markdown("""
 ## Onde comecei?
