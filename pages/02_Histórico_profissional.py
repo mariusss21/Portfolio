@@ -35,6 +35,11 @@ div.block-container{
     font-size: 26px;
 }
 
+.css-184tjsw p {
+    word-break: break-word;
+    font-size: 26px;
+}
+
 div.streamlit-expanderHeader{
     width: 100%;
 }
