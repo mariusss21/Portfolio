@@ -32,12 +32,11 @@ div.block-container{
 
 .css-1yy6isu p {
     word-break: break-word;
-    font-size: 24px;
+    font-size: 26px;
 }
 
 div.streamlit-expanderHeader{
     width: 100%;
-    font-size: 30px;
 }
 </style>""", unsafe_allow_html=True)
 
@@ -46,7 +45,7 @@ st.markdown("# Histórico profissional")
 info, skills = st.columns([7,3])
 
 info.markdown("""
-## Engenheiro de controle e automação - Ambev
+## Engenheiro de controle e automação - Ambev :beer:
 #### de abril de 2021 até setembro de 2022
 
 Era responsável por todo o ciclo de desenvolvimento de soluções, participando de reuniões para entender o problema e definir o escopo do projeto. Então passava para a execução do projeto, entrega, melhorias e manutenção. Colaborava com os projetos de outros membros da equipe
