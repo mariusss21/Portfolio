@@ -18,7 +18,7 @@ label.css-qrbaxs{
 }
 
 p{
-    font-size: 18px;
+    font-size: 24px;
 }
 
 h1{
