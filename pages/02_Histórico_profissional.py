@@ -75,12 +75,14 @@ skills.markdown("""
 with st.expander('Principais projetos na Ambev'):
     st.markdown("""
     #### [Dashboard] Logística interna da fábrica:
-    Projeto visava auxiliar a reposição de insumos e retirada de produto finalizado. Essa solução reduziu a zero o tempo de parada por questões logísticas resultando em uma economia estimada superior a R$ 500.000,00/mês. 
-    * Ferramentas utilizadas: Node-Red para coleta de dados dos equipamentos, InfluxDB para armazenamento e dashboard no Grafana
+    Projeto visava auxiliar a reposição de insumos e retirada de produto finalizado. 
+    * **Resultados alcançados:** Reduziu a zero o tempo de parada por questões logísticas resultando em uma economia estimada superior a R$ 500.000,00/mês. 
+    * **Ferramentas utilizadas:** Node-Red para coleta de dados dos equipamentos, InfluxDB para armazenamento e dashboard no Grafana
 
     #### [Aplicação] Central de alarmes da Control Tower: 
     Todos os alarmes da planta foram concentrados em uma única aplicação, o que permiteu ao operador identificar rapidamente quais máquinas estão em falha ou se houve falhas em inspeções de qualidade. 
-    * Ferramentas utilizadas: Node-Red para coleta de dados dos equipamentos e de arquivos CSV, armazenamento em banco MySQL e a interface desenvolvida em Python (Pandas e Streamlit).
+    * **Resultados alcançados:** A centralização dos alarmes possibilitou a rápida identifição de problemas gerando redução no tempo entre o problema e ação. Os gráficos também ajudaram a entender quais falhas são mais recorrentes e impactam na produção
+    * **Ferramentas utilizadas:** Node-Red para coleta de dados dos equipamentos e de arquivos CSV, armazenamento em banco MySQL e a interface desenvolvida em Python (Pandas e Streamlit).
 
     #### [Aplicação] Gerenciamento da calibração:
 
