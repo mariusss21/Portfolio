@@ -116,7 +116,7 @@ with st.expander('Principais projetos na Ambev'):
 info, skills = st.columns([7,3])
 
 info.markdown("""
-## Engenheiro de controle e automação - GC Automação :robot:
+## Engenheiro de controle e automação - GC Automação :factory:
 #### *de agosto de 2016 até dezembro de 2020*
 
 * Desenvolvimento de projetos IoT utilizando gateway IoT2040 (Siemens) com Linux, Node-Red, Python e Arduino/ESP8266. 
