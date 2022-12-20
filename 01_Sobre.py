@@ -38,7 +38,7 @@ div.streamlit-expanderHeader{
 # Página sobre
 st.markdown("# Sobre")
 
-sobre, foto = st.columns([8,2])
+foto, sobre  = st.columns([2, 8])
 
 sobre.markdown("""
 ## Quem sou eu?
@@ -59,6 +59,6 @@ Na GC eu tinha demandas variadas (projetos de automação, IoT e assistências t
 ## Onde estou?
 Saí da Ambev em setembro de 2021 e entrei de cabeça na **engenharia de dados**. 
 
-**Hoje estou cursando um bootcamp de engenharia de dados na How, um nanodegree de Data engineering na Udacity e aperfeiçoando meus conhecimentos em Pyhton e SQL.'**
+**Hoje estou cursando um bootcamp de engenharia de dados na How, um nanodegree de Data engineering na Udacity e aperfeiçoando meus conhecimentos em Pyhton e SQL.**
 
 """)
