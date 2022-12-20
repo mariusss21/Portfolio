@@ -43,13 +43,15 @@ sobre, foto = st.columns([8,2])
 sobre.markdown("""
 ## Quem sou eu?
 Olá, sou Mario Carvalho. Sejam bem vindos ao meu portfólio. Nasci em Natal-RN e moro em Recife-PE desde 1997 com passagens por Dublin e Sete Lagoas-MG. Sou apaixonado por resolver problemas, esportes (em especial o futebol) e livros de fantasia.
+
+## Onde comecei?
+Desde pequeno gostava muito de matemática e já tinha me decidido pela engenharia. Entrei em engenharia eletrônica e me encontrei na automação industrial. Como engenheiro (de 2016 até 2020 na GC Automação), trabalhei em indústrias de diversos segmentos, sendo a programação de PLC e desenvolvimento de soluções IoT as minhas principais atribuições.
+
 """)
 
 foto.image('mario_carvalho.jpg')
 
 st.markdown("""
-## Onde comecei?
-Desde pequeno gostava muito de matemática e já tinha me decidido pela engenharia. Entrei em engenharia eletrônica e me encontrei na automação industrial. Como engenheiro (de 2016 até 2020 na GC Automação), trabalhei em indústrias de diversos segmentos, sendo a programação de PLC e desenvolvimento de soluções IoT as minhas principais atribuições.
 
 ## O que mudou?
 Na GC eu tinha demandas variadas e em uma delas Python e dados entraram no meu caminho (em 2019). Após alguns cursos na área o meu interesse aumentou e resolvi então mudar minha trajetória profissional. Em 2021 consegui a oportunidade na Ambev para testar esse novo caminho, mas ainda contratado como engenheiro.
