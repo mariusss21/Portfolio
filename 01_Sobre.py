@@ -1,10 +1,39 @@
 import streamlit as st
 
-st.markdown("# Home🎈")
-st.sidebar.markdown("# Home 🎈")
+st.set_page_config(
+    page_title="Porfólio Mario Carvalho",
+	layout="wide",
+    initial_sidebar_state="expanded",
+)
 
-# Contents of ~/my_app/pages/page_2.py
-import streamlit as st
+m = st.markdown("""
+<style>
+div.stButton > button:first-child{
+    width: 100%;
+    font-size: 18px;
+}
 
-st.markdown("# Sobre ❄️")
-st.sidebar.markdown("# Sobre ❄️")
+label.css-qrbaxs{
+    font-size: 18px;
+}
+
+p{
+    font-size: 18px;
+}
+
+h1{
+    text-align: center;
+}
+
+div.block-container{
+    padding-top: 1rem;
+}
+
+div.streamlit-expanderHeader{
+    width: 100%;
+    font-size: 18px;
+}
+</style>""", unsafe_allow_html=True) #    font-weight: bold;
+
+# Página sobre
+st.markdown("# Sobre")
