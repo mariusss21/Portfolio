@@ -53,7 +53,7 @@ info.markdown("""
 ## Engenheiro de controle e automação - Ambev :beer:
 #### *de abril de 2021 até setembro de 2022*
 
-Trabalhei na Ambev latas minas (presencial em 2021 e remoto em 2022) no time de tecnologia da fábrica. Era responsável por todo o ciclo de desenvolvimento de soluções, participando desde reuniões para entender o problema até a entrega do produto.
+Trabalhei na Ambev latas minas (presencial em 2021 e remoto em 2022) no time de tecnologia da fábrica. Era responsável por todo o ciclo de desenvolvimento de soluções, desde a definição e entendimento do problema até a entrega do produto.
 
 * Desenvolvimento de aplicações para otimizar os processos com Python e deploy das aplicações na plataforma Streamlit.io ou em containers (Docker).
 * Desenvolvimento de dashboards (Streamlit e Grafana)
@@ -110,5 +110,5 @@ with st.expander('Principais projetos na Ambev'):
     O TCS é um equipamento que realiza medições de peças dos equipamentos para garantir que estão na medida certa e que realizarão corretamente as transformações da lata. Existe um software que recebe esses dados, porém é de difícil navegação e não fornecia a visibilidade desejada para o dia a dia.
     Então foi desenvolvida uma aplicação para extrair a base de dados do TCS (um arquivo .mdb) e conferir visibilidade aos principais indicadores do TCS. Também foram extraídos dados de produção e falhas do InfluxDB para auxiliar o processo de tomada de decisão.
     * **Resultados alcançados:** Facilitou a troca de turno pois bastava olhar a aplicação pra saber tudo que tinha sido feito no turno passado. Os gestores tiveram visibilidade das atividades realizadas e tinham dados para comparar com a produção e as falhas
-    * **Ferramentas utilizadas:** Desenvolvido com Python, Pandas e Streamlit.
+    * **Ferramentas utilizadas:** Desenvolvido com Python, Pandas, Streamlit e MySQL.
     """)
