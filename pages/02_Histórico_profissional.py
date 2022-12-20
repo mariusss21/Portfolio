@@ -47,10 +47,10 @@ div.streamlit-expanderHeader{
 
 st.markdown("# Histórico profissional")
 
-info, skills = st.columns([7,3])
+info, skills = st.columns([7,3]) 
 
 info.markdown("""
-## Engenheiro de controle e automação - Ambev :beer:
+## Engenheiro de controle e automação - Ambev :beer: :bar_chart:
 #### *de abril de 2021 até setembro de 2022*
 
 Trabalhei na Ambev latas minas (presencial em 2021 e remoto em 2022) no time de tecnologia da fábrica. Era responsável por todo o ciclo de desenvolvimento de soluções, desde a definição e entendimento do problema até a entrega do produto.
