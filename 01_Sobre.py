@@ -45,7 +45,7 @@ sobre.markdown("""
 Olá, sou Mario Carvalho. Sejam bem vindos ao meu portfólio. Nasci em Natal-RN e moro em Recife-PE desde 1997 com passagens por Dublin e Sete Lagoas-MG. Sou apaixonado por resolver problemas, esportes (em especial o futebol) e livros de fantasia.
 
 ## Onde comecei?
-Desde pequeno gostava muito de matemática e já tinha me decidido pela engenharia. Entrei em engenharia eletrônica e me encontrei na automação industrial. Como engenheiro (de 2016 até 2020 na GC Automação), trabalhei em indústrias de diversos segmentos, sendo a programação de PLC e desenvolvimento de soluções IoT as minhas principais atribuições.
+Desde pequeno gostava muito de matemática e já tinha me decidido pela engenharia. Entrei em engenharia eletrônica e me encontrei na automação industrial. Como engenheiro, trabalhei em indústrias de diversos segmentos, sendo a programação de PLC e desenvolvimento de soluções IoT as minhas principais atribuições (de 2016 até 2020 na GC Automação).
 
 """)
 
