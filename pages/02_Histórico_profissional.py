@@ -121,7 +121,8 @@ info.markdown("""
 
 * Desenvolvimento de projetos IoT utilizando gateway IoT2040 (Siemens) com Linux, Node-Red, Python e Arduino/ESP8266. 
 * Programação de PLCs em várias linguagens (texto estruturado, Ladder e diagrama de blocos). Conversão de aplicações de CLP's em projetos de retrofit. Configuração e parametrização de inversores de frequência e soft-starters. Comissionamento e Startup de máquinas e processos industriais. 
-* Serviços de assistência técnica e projetos em indústrias de diferentes segmentos (Mondelez, Campari, Ball, Bimbo, Lonza, entre outras). Elaboração de material e realização de treinamentos.
+* Serviços de assistência técnica e projetos em indústrias de diferentes segmentos (Mondelez, Campari, Ball, Bimbo, Lonza, entre outras). 
+* Elaboração de material e realização de treinamentos.
 * Programação de microcontroladores (Arduino e esp8266), design e confecção de PCB e responsável pelo gerenciamento das demais atividades do setor de IoT. 
 * Atuação em projetos de campo em Automação Industrial, supervisão de equipe de eletricistas, comissionamento de painéis, programação de CLPs e IHMs (Rockwell: PanelView, SLC 500, ControlLogix, CompactLogix; e Siemens: SIMATIC HMI, S7-1500, S7-1200, Logo!) e análise de diagramas elétricos. 
 * Resolução de problemas relacionados a redes industriais (Modbus, Ethernet/IP, DeviceNet, Profinet e AS-Interface).
