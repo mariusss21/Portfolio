@@ -112,3 +112,33 @@ with st.expander('Principais projetos na Ambev'):
     * **Resultados alcançados:** Facilitou a troca de turno pois bastava olhar a aplicação pra saber tudo que tinha sido feito no turno passado. Os gestores tiveram visibilidade das atividades realizadas e tinham dados para comparar com a produção e as falhas
     * **Ferramentas utilizadas:** Desenvolvido com Python, Pandas, Streamlit e MySQL.
     """)
+
+info, skills = st.columns([7,3])
+
+info.markdown("""
+## Engenheiro de controle e automação - GC Automação :robot:
+#### *de agosto de 2016 até dezembro de 2020*
+
+* Desenvolvimento de projetos IoT utilizando gateway IoT2040 (Siemens) com Linux, Node-Red, Python e Arduino/ESP8266. 
+* Programação de PLCs em várias linguagens (texto estruturado, Ladder e diagrama de blocos). Conversão de aplicações de CLP's em projetos de retrofit. Configuração e parametrização de inversores de frequência e soft-starters. Comissionamento e Startup de máquinas e processos industriais. 
+* Serviços de assistência técnica e projetos em indústrias de diferentes segmentos (Mondelez, Campari, Ball, Bimbo, Lonza, entre outras). Elaboração de material e realização de treinamentos.
+* Programação de microcontroladores (Arduino e esp8266), design e confecção de PCB e responsável pelo gerenciamento das demais atividades do setor de IoT. 
+* Atuação em projetos de campo em Automação Industrial, supervisão de equipe de eletricistas, comissionamento de painéis, programação de CLPs e IHMs (Rockwell: PanelView, SLC 500, ControlLogix, CompactLogix; e Siemens: SIMATIC HMI, S7-1500, S7-1200, Logo!) e análise de diagramas elétricos. 
+* Resolução de problemas relacionados a redes industriais (Modbus, Ethernet/IP, DeviceNet, Profinet e AS-Interface).
+
+""")
+
+skills.markdown("""
+### Skills:
+* Python (Pandas, Plotly, Streamlit)
+* Node-Red (Javascript)
+* Programação de CLPs (Controladores Lógicos Programáveis) 
+* Programação de IHMs (Interface homem máquina)
+* IoT (Arduino, Esp8266 e IoT2040 da Siemens)
+""")
+
+with st.expander('Principais projetos na GC Automação'):
+    st.markdown(""" 
+
+
+    """)
