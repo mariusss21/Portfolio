@@ -49,6 +49,6 @@ Desde pequeno gostava muito de matemática e já tinha me decidido pela engenhar
 Python e os dados entraram no meu caminho. Ainda no meu primeiro emprego surgiram demandas que me fizeram entrar em contato com python e depois os dados (2019). Resolvi então mudar minha trajetória profissional e em 2021 surgiu a oportunidade na Ambev para testar esse novo caminho.
 
 ## Onde estou?
-Saí da Ambev em setembro de 2021 e direcionei meus estudos para a engenharia de dados. Hoje estou cursando um bootcamp de engenharia de dados na How e um nanodegree de Data engineering na Udacity
+Saí da Ambev em setembro de 2021 e direcionei meus estudos para a **engenharia de dados**. Hoje estou cursando um bootcamp de engenharia de dados na How e um nanodegree de Data engineering na Udacity
 
 """)
