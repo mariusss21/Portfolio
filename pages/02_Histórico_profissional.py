@@ -46,9 +46,9 @@ info, skills = st.columns([7,3])
 
 info.markdown("""
 ## Engenheiro de controle e automação - Ambev :beer:
-#### de abril de 2021 até setembro de 2022
+#### *de abril de 2021 até setembro de 2022*
 
-Era responsável por todo o ciclo de desenvolvimento de soluções, participando de reuniões para entender o problema e definir o escopo do projeto. Então passava para a execução do projeto, entrega, melhorias e manutenção. Colaborava com os projetos de outros membros da equipe
+Era responsável por todo o ciclo de desenvolvimento de soluções, participando de reuniões para entender o problema e definir o escopo do projeto. Então passava para a execução do projeto, entrega, melhorias e manutenção. Também colaborava com os projetos de outros membros da equipe.
 
 * Desenvolvimento de aplicações para otimizar os processos com Python e deploy das aplicações na plataforma Streamlit.io ou em containers (Docker).
 * Desenvolvimento de dashboards (Streamlit e Grafana)
@@ -61,7 +61,19 @@ skills.markdown("""
 * Python (Pandas, Plotly, Streamlit)
 * Bancos de dados (MySQL, Firebase, InfluxDB)
 * Node-Red (Javascript)
+* ETL
+* Grafana
+* Docker
+* PLC 
 """)
 
 with st.expander('Principais projetos na Ambev'):
-    st.write('projetos')
+    st.markdown("""
+    ### Dashboard logística interna da fábrica:
+    Projeto visava auxiliar a reposição de insumos e retirada de produto finalizado. Essa solução reduziu a zero o tempo de parada por questões logísticas resultando em uma economia estimada superior a R$ 500.000,00/mês. 
+    * Ferramentas utilizadas: Node-Red para coleta de dados dos equipamentos, InfluxDB para armazenamento e dashboard no Grafana
+
+    ### Central de alarmes da Control Tower: 
+    Todos os alarmes da planta foram concentrados em uma única aplicação, o que permiteu ao operador identificar rapidamente quais máquinas estão em falha ou se houve falha em inspeções de qualidade. 
+    * Ferramentas utilizadas: Node-Red para coleta de dados dos equipamentos e de arquivos CSV, armazenamento em banco MySQL e a interface desenvolvida em Python (Pandas e Streamlit).
+    """)

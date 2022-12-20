@@ -54,7 +54,7 @@ foto.image('mario_carvalho.jpg')
 st.markdown("""
 
 ## O que mudou?
-Na GC eu tinha demandas variadas e em uma delas Python e dados entraram no meu caminho (em 2019). Após alguns cursos na área o meu interesse aumentou e resolvi então mudar minha trajetória profissional. Em 2021 consegui a oportunidade na Ambev para testar esse novo caminho, mas ainda contratado como engenheiro.
+Na GC eu tinha demandas variadas (projetos de automação, IoT e assistências técnicas) e em uma dessas demandas Python e dados entraram no meu caminho (em 2019). Após alguns cursos na área o meu interesse aumentou e resolvi então mudar minha trajetória profissional. Em 2021 consegui a oportunidade na Ambev para testar esse novo caminho, mas ainda contratado como engenheiro.
 
 ## Onde estou?
 Saí da Ambev em setembro de 2021 e entrei de cabeça na **engenharia de dados**. 
