@@ -38,17 +38,23 @@ div.streamlit-expanderHeader{
 # Página sobre
 st.markdown("# Sobre")
 
-st.markdown("""
+sobre, foto = st.columns([7,3])
+
+sobre.markdown("""
 ## Quem sou eu?
 Olá, sou Mario Carvalho. Sejam bem vindos ao meu portfólio. Nasci em Natal-RN e moro em Recife-PE desde 1997 com passagens por Dublin e Sete Lagoas-MG. Sou apaixonado por resolver problemas, esportes (em especial o futebol) e livros de fantasia.
+""")
 
+st.markdown("""
 ## Onde comecei?
-Desde pequeno gostava muito de matemática e já tinha me decidido pela engenharia. Entrei em engenharia eletrônica e me encontrei na automação industrial. Como engenheiro (de 2016 até 2020), trabalhei em indústrias de diversos segmentos, sendo a programação de PLC e desenvolvimento de soluções IoT as minhas principais atribuições.
+Desde pequeno gostava muito de matemática e já tinha me decidido pela engenharia. Entrei em engenharia eletrônica e me encontrei na automação industrial. Como engenheiro (de 2016 até 2020 na GC Automação), trabalhei em indústrias de diversos segmentos, sendo a programação de PLC e desenvolvimento de soluções IoT as minhas principais atribuições.
 
 ## O que mudou?
-Python e os dados entraram no meu caminho. Ainda no meu primeiro emprego surgiram demandas que me fizeram entrar em contato com python e depois os dados (2019). Resolvi então mudar minha trajetória profissional e em 2021 surgiu a oportunidade na Ambev para testar esse novo caminho.
+Na GC eu tinha demandas variadas e em uma delas Python e dados entraram no meu caminho (em 2019). Após alguns cursos na área o meu interesse aumentou e resolvi então mudar minha trajetória profissional. Em 2021 consegui a oportunidade na Ambev para testar esse novo caminho, mas ainda contratado como engenheiro.
 
 ## Onde estou?
-Saí da Ambev em setembro de 2021 e direcionei meus estudos para a **engenharia de dados**. **Hoje estou cursando um bootcamp de engenharia de dados na How e um nanodegree de Data engineering na Udacity.**
+Saí da Ambev em setembro de 2021 e entrei de cabeça na **engenharia de dados**. 
+
+**Hoje estou cursando um bootcamp de engenharia de dados na How, um nanodegree de Data engineering na Udacity e aperfeiçoando meus conhecimentos em Pyhton e SQL.'**
 
 """)
