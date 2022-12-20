@@ -68,7 +68,7 @@ skills.markdown("""
 * ETL
 * Grafana
 * Docker
-* PLC 
+* Programação de CLPs (Controladores Lógicos Programáveis)  
 """)
 
 with st.expander('Principais projetos na Ambev'):
